@@ -1,0 +1,7 @@
+Simple Unix Java boilerplate.
+
+Initialize:
+sh customize.sh
+
+Build:
+build the .jar  : make
