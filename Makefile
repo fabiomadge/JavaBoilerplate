@@ -4,7 +4,7 @@ build:
 	javac src/*.java
 	cd src; jar cfe JavaBoilerplate.jar Main *.class; mv JavaBoilerplate.jar ..
 	@echo 'Fertig!'
-	@echo 'Zum Ausführen: java -jar JavaBoilerplate.jar [<Obere Grenze>]'
+	@echo 'Zum Ausführen: java -jar JavaBoilerplate.jar [<args>]'
 
 help:
 	@echo "Usage: make <commands>\n"
